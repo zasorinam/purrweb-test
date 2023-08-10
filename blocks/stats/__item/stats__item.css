@@ -1,0 +1,8 @@
+@media only screen and (max-width: 600px) {
+  .stats__item {
+    margin-bottom: 40px;
+  }
+  .stats__item:last-child {
+    margin-bottom: 0;
+  }
+}

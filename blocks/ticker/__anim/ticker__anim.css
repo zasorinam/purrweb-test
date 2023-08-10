@@ -1,0 +1,25 @@
+.ticker__anim_left {
+  animation: marquee-infinite 20s linear infinite;
+}
+
+@keyframes marquee-infinite {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.ticker__anim_right {
+  animation: marquee-infinite-revert 20s linear infinite;
+}
+
+@keyframes marquee-infinite-revert {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}

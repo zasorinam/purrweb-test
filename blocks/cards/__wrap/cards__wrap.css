@@ -1,0 +1,50 @@
+.cards__wrap {
+  padding: 40px;
+}
+
+.cards__card:first-child .cards__wrap{
+  padding-left: 40%;
+}
+
+.cards__card:nth-child(2) .cards__wrap{
+  padding-right: 20%;
+  padding-bottom: 80px;
+}
+
+.cards__card:nth-child(3) .cards__wrap{
+  padding-bottom: 70px;
+}
+
+.cards__card:nth-child(4) .cards__wrap{
+  padding-right: 30%;
+}
+
+@media only screen and (max-width: 992px) {
+  .cards__card:first-child .cards__wrap{
+    padding-left: 40px;
+    padding-bottom: 200px;
+  }
+
+  .cards__card:nth-child(2) .cards__wrap{
+    padding-right: 40px;
+    padding-bottom: 120px;
+  }
+
+  .cards__card:nth-child(3) .cards__wrap{
+    padding-bottom: 110px;
+  }
+
+  .cards__card:nth-child(4) .cards__wrap{
+    padding-right: 40px;
+    padding-bottom: 190px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .cards__card .cards__wrap
+  {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

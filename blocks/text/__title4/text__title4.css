@@ -1,0 +1,25 @@
+.text__title4 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 106%;
+
+  margin: 10px 0 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .text__title4 {
+    font-size: 44px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .text__title4 {
+    font-size: 36px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .text__title4 {
+    font-size: 32px;
+  }
+}

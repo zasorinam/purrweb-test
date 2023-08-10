@@ -1,0 +1,12 @@
+.hero {
+  background: #181818;
+  color: white;
+  padding-top: 209px;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,9 @@
+.page__stats {
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  .page__stats {
+    margin-top: 40px;
+  }
+}

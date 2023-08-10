@@ -1,0 +1,12 @@
+.stats__wrap {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+@media only screen and (max-width: 600px) {
+  .stats__wrap {
+    text-align: left;
+    margin: 0 16px;
+    width: auto;
+  }
+}

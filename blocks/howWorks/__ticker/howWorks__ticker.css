@@ -1,0 +1,6 @@
+.howWorks__ticker {
+  margin-bottom: 68px;
+}
+.howWorks__ticker:last-child {
+  margin-bottom: 0;
+}

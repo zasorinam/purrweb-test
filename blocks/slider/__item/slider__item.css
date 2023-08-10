@@ -1,0 +1,7 @@
+.slider__item {
+  display: none;
+  width: 400px;
+  height: 100%;
+  overflow: hidden;
+  background-color: #FFAA4C;
+}

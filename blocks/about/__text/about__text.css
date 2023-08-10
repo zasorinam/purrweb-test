@@ -1,0 +1,10 @@
+.about__text {
+  width: 31%;
+}
+
+@media only screen and (max-width: 768px) {
+  .about__text {
+    width: auto;
+    margin-bottom: 40px;
+  }
+}

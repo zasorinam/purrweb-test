@@ -1,0 +1,15 @@
+.about__items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 61%;
+
+  flex-wrap: wrap;
+  grid-gap: 4%;
+}
+
+@media only screen and (max-width: 768px) {
+  .about__items {
+    width: auto;
+  }
+}

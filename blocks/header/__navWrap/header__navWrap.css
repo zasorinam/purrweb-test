@@ -1,0 +1,14 @@
+.header__navWrap {
+  align-items: center;
+  padding: 0 60px;
+  height: 71px;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .header__navWrap {
+    padding: 0 16px;
+  }
+}

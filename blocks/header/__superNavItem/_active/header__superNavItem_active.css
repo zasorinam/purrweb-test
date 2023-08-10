@@ -1,0 +1,5 @@
+.header__superNavItem_active {
+  background-color: #181818;
+  color: white;
+  border-radius: 20px 20px 0 0;
+}

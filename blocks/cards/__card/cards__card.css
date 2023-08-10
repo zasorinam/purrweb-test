@@ -1,0 +1,76 @@
+.cards__card {
+  background-color: #F5F5F5;
+  color: black;
+  border-radius: 30px;
+  width: calc(60% - 10px);
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+.cards__card:nth-child(2), .cards__card:nth-child(3) {
+  width: calc(40% - 10px);
+}
+
+.cards__card:first-child {
+  background-image: url('../../images/decor-why1.svg');
+  background-position: left;
+  background-size: auto 100%;
+}
+
+.cards__card:nth-child(2) {
+  background-image:
+      url('../../images/decor-why2_1.svg'),
+      url('../../images/decor-why2_2.svg'),
+      url('../../images/decor-why2_3.svg');
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: right 50%, 80% bottom, 20% bottom;
+}
+
+.cards__card:nth-child(3) {
+  background-image: url('../../images/decor-why3.svg');
+  background-position: right bottom;
+}
+
+.cards__card:nth-child(4) {
+  background-image: url('../../images/decor-why4.svg');
+  background-position: right bottom;
+}
+
+@media only screen and (max-width: 1440px) {
+  .cards__card:first-child {
+    background-position: -150px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .cards__card:first-child {
+    background-position: -250px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .cards__card {
+    margin-bottom: 16px;
+    width: 100%;
+  }
+
+  .cards__card:first-child {
+    background-image: url('../../images/decor-why1_2.svg');
+    background-position: left bottom;
+    background-size: auto 200px;
+  }
+
+  .cards__card:nth-child(2) {
+    background-position: right bottom 5%, 60% bottom, 5% bottom;
+  }
+
+  .cards__card:nth-child(2), .cards__card:nth-child(3) {
+    width: 100%;
+  }
+
+  .cards__card:nth-child(4) {
+    margin-bottom: 0;
+    background-position: right 20% bottom;
+    background-size: auto 185px;
+  }
+}

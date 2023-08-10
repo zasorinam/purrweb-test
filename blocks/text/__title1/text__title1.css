@@ -1,0 +1,32 @@
+.text__title1 {
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 106%;
+
+  margin: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .text__title1 {
+    font-size: 108px;
+  }
+
+}
+
+@media only screen and (max-width: 992px) {
+  .text__title1 {
+    font-size: 88px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .text__title1 {
+    font-size: 68px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .text__title1 {
+    font-size: 48px;
+  }
+}

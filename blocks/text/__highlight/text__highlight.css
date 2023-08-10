@@ -1,0 +1,17 @@
+.text__highlight {
+  position: relative;
+  white-space: nowrap;
+}
+.text__highlight:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 105%;
+  height: 75%;
+  left: 50%;
+  bottom: 0;
+  border-radius: 30px;
+  transform: translate(-50%, -2px) rotate(-2deg);
+  background-color: #A64CED;
+  z-index: -1;
+}

@@ -1,0 +1,18 @@
+.page__cookies {
+  margin: 30px 90px;
+  top: auto;
+  bottom: 0;
+  right: 0;
+  transition: bottom 0.4s;
+}
+
+.page__cookies.modal_disabled {
+  display: block;
+  bottom: -100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .page__cookies {
+    margin: 0;
+  }
+}

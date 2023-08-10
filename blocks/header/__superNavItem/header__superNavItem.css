@@ -1,0 +1,6 @@
+.header__superNavItem {
+  display: inline-block;
+  color: black;
+  padding: 9px 40px;
+  text-decoration: none;
+}

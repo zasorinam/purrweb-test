@@ -1,0 +1,14 @@
+.brand__CTA {
+  margin: 0 auto 100px;
+  border: #CFCFCF solid 1px;
+  border-radius: 60px;
+  text-align: center;
+  padding: 60px 16px;
+}
+
+@media only screen and (max-width: 768px) {
+  .brand__CTA {
+    margin: 0 16px 40px;
+    padding: 40px 16px;
+  }
+}

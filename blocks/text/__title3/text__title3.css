@@ -1,0 +1,32 @@
+.text__title3 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 106%;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .text__title3 {
+    font-size: 58px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .text__title3 {
+    font-size: 52px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .text__title3 {
+    font-size: 46px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .text__title3 {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,20 @@
+.text__subTitle6 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+
+  margin: 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .text__subTitle6 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .text__subTitle6 {
+    font-size: 16px;
+  }
+}

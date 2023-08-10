@@ -1,0 +1,7 @@
+.form__inputWithIcon {
+  position: relative;
+}
+
+.form__inputWithIcon > input{
+  padding-left: 38px;
+}

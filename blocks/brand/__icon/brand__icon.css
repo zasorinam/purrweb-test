@@ -1,0 +1,21 @@
+@media only screen and (max-width: 768px) {
+  .brand__icon {
+    max-height: 43px;
+    max-width: 200px;
+  }
+  .brand__icon:nth-child(1) {
+    order: 3;
+  }
+  .brand__icon:nth-child(2) {
+    order: 2;
+  }
+  .brand__icon:nth-child(3) {
+    order: 1;
+  }
+  .brand__icon:nth-child(4) {
+    order: 4;
+  }
+  .brand__icon:nth-child(5) {
+    order: 5;
+  }
+}

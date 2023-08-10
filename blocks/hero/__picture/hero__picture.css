@@ -1,0 +1,13 @@
+.hero__picture {
+  width: 595px;
+  height: auto;
+
+  align-self: flex-end;
+  text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero__picture {
+    width: 85%;
+  }
+}

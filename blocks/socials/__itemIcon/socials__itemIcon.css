@@ -1,0 +1,10 @@
+.socials__itemIcon {
+  width: 90px;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .socials__itemIcon {
+    width: 64px;
+  }
+}

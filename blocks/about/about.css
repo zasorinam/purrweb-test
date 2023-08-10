@@ -1,0 +1,13 @@
+.about {
+  color: white;
+  padding: 100px 60px 0;
+
+  background: no-repeat url('../../images/decor-about.svg') bottom left ;
+}
+
+@media only screen and (max-width: 768px) {
+  .about {
+    padding: 40px 16px 0;
+    background-image: none;
+  }
+}

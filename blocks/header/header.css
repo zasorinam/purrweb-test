@@ -1,0 +1,18 @@
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  top: 0;
+  -webkit-transition: top 0.3s ease;
+  -moz-transition: top 0.3s ease;
+  -ms-transition: top 0.3s ease;
+  -o-transition: top 0.3s ease;
+  transition: top 0.3s ease;
+}
+
+@media only screen and (max-width: 768px) {
+  .header__checkbox:checked ~ .header {
+    height: 100%;
+    top: -38px;
+  }
+}

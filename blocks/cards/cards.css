@@ -1,0 +1,18 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 20px;
+
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding: 0;
+
+  text-align: left;
+}
+
+@media only screen and (max-width: 992px) {
+  .cards {
+    display: block;
+  }
+}

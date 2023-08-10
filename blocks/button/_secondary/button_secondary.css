@@ -1,0 +1,27 @@
+.button_secondary {
+  background-color: transparent;
+  border: 2px solid #954CED;
+  padding: 16px 30px;
+  border-radius: 16px;
+}
+
+.button_secondary:focus {
+  background-color: transparent;
+  border: 2px solid #954CED;
+}
+
+.button_secondary:active {
+  background-color: transparent;
+  border: 2px solid #A64CED;
+}
+
+.button_secondary:hover {
+  border: 2px solid #954CED;
+  background-color: rgba(149, 76, 237, 0.20);
+}
+
+.button_secondary:disabled {
+  background-color: transparent;
+  border: 2px solid #B9B9B9;
+  color: #B9B9B9;
+}

@@ -1,0 +1,11 @@
+.footer {
+  background-color: #181818;
+  padding: 40px 60px 20px;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .footer {
+    padding: 20px 16px;
+  }
+}

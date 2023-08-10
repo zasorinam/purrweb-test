@@ -1,0 +1,23 @@
+.header__hamburger {
+  display: none;
+  cursor: pointer;
+
+}
+
+.header__checkbox:checked ~ .header .hamburger__line:first-child {
+  transform: rotate(45deg);
+}
+
+.header__checkbox:checked ~ .header .hamburger__line:nth-child(2) {
+  transform: scaleY(0);
+}
+
+.header__checkbox:checked ~ .header .hamburger__line:nth-child(3) {
+  transform: translate(-4px, -9px) rotate(-45deg);
+}
+
+@media only screen and (max-width: 768px) {
+  .header__hamburger {
+    display: flex;
+  }
+}

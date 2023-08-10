@@ -1,0 +1,5 @@
+.brand__brands {
+  justify-content: space-between;
+  grid-gap: 40px;
+  flex-wrap: wrap;
+}

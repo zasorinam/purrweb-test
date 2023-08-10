@@ -1,0 +1,9 @@
+.footer__navItem_hidden {
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .footer__navItem_hidden {
+    display: block;
+  }
+}

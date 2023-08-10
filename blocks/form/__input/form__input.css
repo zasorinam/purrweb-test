@@ -1,0 +1,32 @@
+.form__input {
+  display: block;
+  height: 40px;
+  padding: 10px 16px;
+  border-radius: 14px;
+  border: 1px solid #F1F1F1;
+  box-sizing: border-box;
+  margin: 0;
+  width: 100%;
+}
+
+.form__input::placeholder {
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #A7A7A7;
+}
+
+.form__input:active, .form__input:focus, .form__input:focus-visible {
+  border: 1px solid #A7A7A7;
+  outline: none;
+}
+
+.form__input:disabled {
+  color: #A7A7A7;
+  border: 1px solid #F1F1F1;
+}
+
+.form__input_error {
+  border-color: #EC1211;
+}

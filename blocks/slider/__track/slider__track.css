@@ -1,0 +1,7 @@
+.slider__track {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: fit-content;
+  display: flex;
+}

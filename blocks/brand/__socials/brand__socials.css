@@ -1,0 +1,12 @@
+.brand__socials {
+  align-items: center;
+  grid-gap: 40px;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 992px) {
+  .brand__socials {
+    display: block;
+  }
+}

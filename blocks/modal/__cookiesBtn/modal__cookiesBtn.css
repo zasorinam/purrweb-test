@@ -1,0 +1,14 @@
+.modal__cookiesBtn {
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .modal__cookiesBtn {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+  .modal__cookiesBtn:last-child {
+    margin-bottom: 0;
+  }
+}

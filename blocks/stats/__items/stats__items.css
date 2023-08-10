@@ -1,0 +1,14 @@
+.stats__items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 60px;
+
+  grid-gap: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .stats__items {
+    display: block;
+    padding: 0;
+  }
+}

@@ -1,0 +1,8 @@
+.hamburger {
+  height: 20px;
+  width: 24px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

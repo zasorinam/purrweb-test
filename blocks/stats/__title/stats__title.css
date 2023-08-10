@@ -1,0 +1,6 @@
+@media only screen and (max-width: 600px) {
+  .stats__title {
+    float: left;
+    margin-right: 20px;
+  }
+}

@@ -1,0 +1,10 @@
+.slider__list {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  margin: 0 20px;
+
+  display: inline-block;
+  vertical-align: top;
+}

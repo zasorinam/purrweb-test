@@ -1,0 +1,4 @@
+.ticker__track {
+  display: flex;
+  width: fit-content;
+}

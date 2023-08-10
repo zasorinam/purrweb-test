@@ -1,0 +1,4 @@
+.ticker__items {
+  display: inline;
+  white-space: nowrap;
+}

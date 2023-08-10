@@ -1,0 +1,6 @@
+.slider__dot_active {
+  background-color: #954CED;
+  width: 25px;
+  height: 25px;
+  cursor: auto;
+}

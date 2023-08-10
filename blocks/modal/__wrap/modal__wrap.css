@@ -1,0 +1,9 @@
+.modal__wrap {
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .modal__wrap {
+    display: block;
+  }
+}

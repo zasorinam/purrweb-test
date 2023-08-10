@@ -1,0 +1,12 @@
+.page__why {
+  color: white;
+  text-align: center;
+  padding: 100px 70px;
+}
+
+@media only screen and (max-width: 768px) {
+  .page__why {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}

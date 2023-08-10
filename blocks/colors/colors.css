@@ -1,0 +1,29 @@
+/* GRAYSCALE */
+.colors__grayscale2 {
+  color: #181818;
+}
+.colors__grayscale3 {
+   color: #444;
+}
+.colors__grayscale3_shadowBorder {
+  text-shadow:
+      1px 0 #444, -1px 0 #444, 0 1px #444, 0 -1px #444, 1px 1px #444, -1px -1px #444, 1px -1px #444, -1px 1px #444;
+}
+
+.colors__grayscale7 {
+  color: white;
+}
+
+/* PRIMARY */
+
+.colors__primary3 {
+  color: #A64CED;
+}
+
+/* SECONDARY */
+.colors__secondary1 {
+  color: #2FDBBC;
+}
+.colors__secondary2 {
+  color: #FFAA4C;
+}
